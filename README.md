@@ -80,5 +80,17 @@ echo $psr4->greet() . PHP_EOL;
 - PSR-0 está obsoleto; se muestra sólo con fines educativos. Para nuevos proyectos, usa PSR-4.
 - Este repositorio mantiene ambas variantes para comparar estructuras y resolver dudas de migración.
 
+## Conclusión técnica
+| Aspecto             | PSR-0                                | PSR-4                               |
+| ------------------- | ------------------------------------ | ----------------------------------- |
+| Año                 | 2009 (deprecated)                    | 2013                                |
+| Separadores         | Cada “\” del namespace = una carpeta | Similar, pero más flexible          |
+| Prefijos            | Obligatorios 1:1 con la estructura   | Pueden mapear a cualquier ruta base |
+| Soporte en Composer | Sí (por compatibilidad)              | Recomendado oficialmente            |
+| Estado actual       | **Deprecated desde 2014**            | ✅ **Estándar vigente**              |
+
+
+
 ---
 Última actualización: 2025-11-06
+
