@@ -54,7 +54,7 @@ Hello from PSR-4!
     }
   }
   ```
-- PSR-0 (legacy): el namespace `PSR0\Demo` se mapea a `src/PSR0/`. Las barras del namespace se convierten en directorios. Ej.: `PSR0\Demo\HelloWorld` → `src/PSR0/Demo/HelloWorld.php`.
+- PSR-0 (legacy): el namespace `PSR0\Demo` se mapea a `src/PSR0/`. Las barras del namespace se convierten en directorios. Ej.: `PSR0\Demo\HelloWorld` → `src/PSR0/PSR0/Demo/HelloWorld.php`.
 - PSR-4 (recomendado): el namespace raíz `PSR4\Demo` se mapea a `src/PSR4/`. Composer resuelve la clase `PSR4\Demo\HelloWorld` en `src/PSR4/Demo/HelloWorld.php` sin reglas especiales heredadas.
 
 En `index.php` se importan ambas clases y se instancian:
