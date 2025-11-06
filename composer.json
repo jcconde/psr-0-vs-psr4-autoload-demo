@@ -1,0 +1,11 @@
+{
+    "name": "demo/psr-autoload",
+    "autoload": {
+        "psr-0": {
+            "PSR0\\Demo\\": "src/PSR0/"
+        },
+        "psr-4": {
+            "PSR4\\Demo\\": "src/PSR4/"
+        }
+    }
+}
